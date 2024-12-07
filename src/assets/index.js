@@ -11,6 +11,7 @@ import { SiGreatlearning } from "react-icons/si";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin.svg";
+import nomk from "./NK.ico"
 
 export {
   SCLogo,
@@ -26,4 +27,5 @@ export {
   menu,
   close,
   linkedin,
+  nomk,
 };

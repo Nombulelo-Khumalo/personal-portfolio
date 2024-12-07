@@ -12,7 +12,7 @@ import {
   menu,
   close,
   linkedin,
-} from ".../assets";
+} from "../assets/index.js";
 
 import {
   AiFillGithub,
@@ -26,7 +26,6 @@ import {
   SiReact,
   SiTailwindcss,
   SiPython,
-  SiVisualstudiocode,
   SiPostman,
   SiGit,
   SiNetlify,
@@ -34,7 +33,7 @@ import {
   SiOpenai,
 } from "react-icons/si";
 
-import { DiCss3, DiJavascript } from "react-icons/di";
+import { DiCss3, DiJavascript, DiVisualstudio } from "react-icons/di";
 import { FaWhatsapp } from "react-icons/fa";
 
 export const resumeLink = "";
@@ -198,7 +197,7 @@ export const skills = [
       },
       {
         id: "t-4",
-        icon: SiVisualstudiocode,
+        icon: DiVisualstudio,
         name: "VsCode",
       },
       {
