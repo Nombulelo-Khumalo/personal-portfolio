@@ -1,10 +1,12 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="bg-blue-50">
+    <div className="bg-primary">
       <div>
         <Navbar />
+        <Hero />
       </div>
     </div>
   );

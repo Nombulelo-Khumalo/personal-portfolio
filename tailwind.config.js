@@ -7,6 +7,7 @@ export default {
       colors: {
         primary: "#050914",
         secondary: "#5B0A4B",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
