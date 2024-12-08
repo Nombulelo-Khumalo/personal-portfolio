@@ -36,6 +36,17 @@ import {
 import { DiCss3, DiJavascript, DiVisualstudio } from "react-icons/di";
 import { FaWhatsapp } from "react-icons/fa";
 
+import {
+  git,
+  orange,
+  darkblue,
+  lightblue,
+  yellow,
+  postman,
+  turqoise,
+  gray,
+} from "/src/colors.js";
+
 export const resumeLink = "";
 export const repoLink =
   "https://github.com/Nombulelo-Khumalo/personal-portfolio";
@@ -134,31 +145,31 @@ export const skills = [
         id: "pl-1",
         icon: SiPython,
         name: "Python",
-        hoverColor: "blue-500",
+        hoverColor: darkblue,
       },
       {
         id: "pl-2",
         icon: SiJavascript,
         name: "Javascript",
-        hoverColor: "yellow-500",
+        hoverColor: yellow,
       },
       {
         id: "pl-3",
         icon: AiFillHtml5,
         name: "Html",
-        hoverColor: "orange-500",
+        hoverColor: orange,
       },
       {
         id: "pl-4",
         icon: DiCss3,
         name: "Css",
-        hoverColor: "blue-500",
+        hoverColor: darkblue,
       },
       {
         id: "pl-5",
         icon: DiJavascript,
         name: "ES6",
-        hoverColor: "primary",
+        hoverColor: yellow,
       },
     ],
   },
@@ -169,11 +180,13 @@ export const skills = [
         id: "f-1",
         icon: SiReact,
         name: "React",
+        hoverColor: lightblue,
       },
       {
         id: "f-2",
         icon: SiTailwindcss,
         name: "Tailwindcss",
+        hoverColor: lightblue,
       },
     ],
   },
@@ -184,31 +197,37 @@ export const skills = [
         id: "t-1",
         icon: SiPostman,
         name: "Postman",
+        hoverColor: orange,
       },
       {
         id: "t-2",
         icon: SiGit,
         name: "Git",
+        hoverColor: git,
       },
       {
         id: "t-3",
         icon: AiFillGithub,
         name: "Github",
+        hoverColor: gray,
       },
       {
         id: "t-4",
         icon: DiVisualstudio,
         name: "VsCode",
+        hoverColor: darkblue,
       },
       {
         id: "t-5",
         icon: SiNetlify,
         name: "Netlify",
+        hoverColor: turqoise,
       },
       {
         id: "t-6",
         icon: SiVite,
         name: "ViteJs",
+        hoverColor: lightblue,
       },
       // {
       //   id: "t-7",

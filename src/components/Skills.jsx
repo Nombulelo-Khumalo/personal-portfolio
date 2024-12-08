@@ -1,19 +1,23 @@
 import React from "react";
 import { skills } from "../constants";
 import { motion } from "framer-motion";
+import clsx from "clsx";
 
 export const SkillIcon = ({ icon: Icon, name, hoverColor }) => {
   if (!Icon) {
     console.error("Icon is not valid!", name);
     return null;
+
   }
+
+  console.log(skills)
 
   return (
     <div className="flex flex-col ">
       <span
         className={`text-white cursor-pointer text-[30px] sm:text-[40px] hover:text-${hoverColor}`}
       >
-        <Icon />
+        <Icon className={clsx(`hover:text-${hoverColor}`)} />
       </span>
       <p className="font-poppins text-dimWhite text-[12px] sm:text-[15px] mt-2">
         {name}
