@@ -14,6 +14,7 @@ import linkedin from "./linkedin.svg";
 import nomk from "./NK.ico";
 import arrowUp from "./arrow-up.svg";
 
+
 export {
   SCLogo,
   SCBasic,
@@ -29,5 +30,6 @@ export {
   close,
   linkedin,
   nomk,
-  arrowUp
+  arrowUp,
+  
 };
