@@ -6,7 +6,10 @@ import {
   SCPlusAddOn,
   SCAIaddon,
   ScrimbaLogo,
-  ScrimbaLogo1,
+  ScrimbaLogo2,
+  alisonsLogo1,
+  scrimbaLogo1,
+  sheCodesLogo1,
   alisonsLogo,
   SiGreatlearning,
   menu,
@@ -80,59 +83,63 @@ export const navLinks = [
 export const educationList = [
   {
     id: "shecodes",
-    icon: SCLogo,
+    icon: sheCodesLogo1,
     title: "SheCodes",
-    degree: "",
-    content: "",
+    content:
+      "Acquired foundational web development skills, including HTML, CSS, and JavaScript, to create interactive, user-centered landing pages. Gained hands-on experience in developing clean, responsive web designs and integrating interactivity to enhance user experience.",
+    items: [
+      {
+        id: "sc-1",
+        icon: SCBasic,
+        title: "SheCodes Basic",
+        content:
+          "Developed proficiency in front-end web development by mastering HTML, CSS, and JavaScript. Applied these technologies to build my first fully interactive landing page, focusing on responsive design and user engagement.",
+      },
+      {
+        id: "sc-2",
+        icon: SCBasicAddOn,
+        title: "SheCodes Basics Add-On",
+        content:
+          "Expanded on core web development knowledge by delving deeper into JavaScript and CSS. Gained experience in creating more complex, dynamic websites that include enhanced UI components and real-time interactivity.",
+      },
+      {
+        id: "sc-3",
+        icon: SCPlus,
+        title: "SheCodes Plus",
+        content:
+          "Designed and developed dynamic websites that integrate live data through APIs. Leveraged advanced JavaScript and modern coding tools to create seamless, data-driven user experiences, ensuring functionality across different platforms.",
+      },
+      {
+        id: "sc-4",
+        icon: SCPlusAddOn,
+        title: "SheCodes Plus Add-On",
+        content:
+          "Enhanced my web development skills by incorporating advanced add-ons into existing websites. Focused on optimizing performance, improving interactivity, and utilizing modern development frameworks to build scalable web solutions.",
+      },
+      {
+        id: "sc-5",
+        icon: SCAIaddon,
+        title: "SheCodes AI Add-On",
+        content:
+          "Developed practical AI-based applications. Gained hands-on experience with AI tools to create intelligent solutions that enhance user experience and automate processes.",
+      },
+    ],
   },
   {
     id: "alisons",
-    icon: alisonsLogo,
+    icon: alisonsLogo1,
     title: "Alisons",
     degree: "Python for Beginners",
-    content: "",
+    content:
+      "Mastered the fundamentals of Python, including object-oriented programming, data structures, and algorithm design. Applied these skills to develop applications with real-world functionality, preparing me for data-driven and AI projects.",
   },
   {
     id: "scrimba",
-    icon: ScrimbaLogo,
+    icon: ScrimbaLogo2,
     title: "Scrimba",
     degree: "Python",
-    content: "",
-  },
-];
-
-export const shecodes = [
-  {
-    id: "sc-1",
-    icon: SCBasic,
-    title: "SheCodes Basic",
     content:
-      "Learnt the basics of HTML, style with CSS, building interactions with JavaScript, and crafting my very first interactive landing page",
-  },
-  {
-    id: "sc-2",
-    icon: SCBasicAddOn,
-    title: "SheCodes Basics Add-On",
-    content: "",
-  },
-  {
-    id: "sc-2",
-    icon: SCPlus,
-    title: "SheCodes Plus",
-    content:
-      "Built websites with live data using APIs, advanced JavaScript and modern coding tools",
-  },
-  {
-    id: "sc-3",
-    icon: SCPlusAddOn,
-    title: "SheCodes Plus Add-On",
-    content: "",
-  },
-  {
-    id: "sc-4",
-    icon: SCAIaddon,
-    title: "SheCodes AI Add-On",
-    content: "Learnt to build applications using Artificial Intelligence",
+      "Deepened my Python knowledge by building scalable, data-driven applications. Applied Python in various scenarios, equipping me with the skills needed to contribute to complex technical projects.",
   },
 ];
 

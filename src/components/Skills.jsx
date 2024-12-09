@@ -7,10 +7,9 @@ export const SkillIcon = ({ icon: Icon, name, hoverColor }) => {
   if (!Icon) {
     console.error("Icon is not valid!", name);
     return null;
-
   }
 
-  console.log(skills)
+  console.log(skills);
 
   return (
     <div className="flex flex-col ">
@@ -51,7 +50,7 @@ const SkillCard = ({ title, items }) => {
 const Skills = () => {
   return (
     <section id="skills" className="mb-2">
-      <h1 className="heading text-center items-center justify-center">
+      <h1 className="heading text-center items-center justify-center text-4xl sm:text-5xl">
         Relevant Skills
       </h1>
       <div className="flex flex-col justify-evenly w-full items-start">
