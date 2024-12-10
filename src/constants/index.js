@@ -12,9 +12,12 @@ import {
   sheCodesLogo1,
   alisonsLogo,
   SiGreatlearning,
+  skincare,
   menu,
   close,
   linkedin,
+  dentist,
+  exam,
 } from "../assets/index.js";
 
 import {
@@ -252,7 +255,7 @@ export const projects = [
     title: "SkinCare Beauty Website",
     github: "https://github.com/Nombulelo-Khumalo/skincare-beauty",
     netlify: "https://skincare-nk.netlify.app",
-    image: "",
+    image: skincare,
     content:
       "A modern, responsive e-commerce website built with React, designed to showcase skincare products. This project demonstrates my ability to create intuitive, user-friendly interfaces and responsive layouts. I used best practices for component-based architecture, state management, and optimized performance. The website is fully mobile-friendly, ensuring a seamless shopping experience across all devices. It reflects my proficiency in React, Tailwindcss, and JavaScript while focusing on clean, maintainable code and scalability.",
     stack: [
@@ -278,7 +281,7 @@ export const projects = [
     title: "Dental Care App with Chatbot",
     github: "https://github.com/Nombulelo-Khumalo/dentalapp",
     netlify: "https://lumidentcare.netlify.app/",
-    image: "",
+    image: dentist,
     content:
       "A user-friendly dental app built with React, featuring a chatbot for instant patient assistance. The app offers appointment booking, dental care tips, and adequate information on dental practise, enhancing the user experience with AI-powered support for quick responses and guidance.",
     stack: [
@@ -294,8 +297,13 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: DiJavascript,
+        icon: SiJavascript,
         name: "Javascript",
+      },
+      {
+        id: "icon-4",
+        icon: SiReact,
+        name: "React",
       },
     ],
   },
@@ -304,7 +312,7 @@ export const projects = [
     title: "Online Examination Platform with JWT Authentication",
     github: "https://github.com/Nombulelo-Khumalo/multiple-choice-exam",
     netlify: "",
-    image: "",
+    image: exam,
     content:
       "A secure online examination system built with HTML and Express, featuring JWT authentication for user login and access control. The app includes a timed exam feature, tracking both the overall exam access duration and individual question accessibility, ensuring a seamless and secure testing experience.",
     stack: [
@@ -320,7 +328,7 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: DiJavascript,
+        icon: SiJavascript,
         name: "Javascript",
       },
     ],

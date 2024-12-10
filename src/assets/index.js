@@ -10,13 +10,15 @@ import alisonsLogo from "./alison-logo.svg";
 import { SiGreatlearning } from "react-icons/si";
 import alisonsLogo1 from "./alison-logo-1.png";
 import scrimbaLogo1 from "./scrimba-logo-1.jpg";
-import sheCodesLogo1 from "./shecodesLogo-1.png"
+import sheCodesLogo1 from "./shecodesLogo-1.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin.svg";
 import nomk from "./NK.ico";
 import arrowUp from "./arrow-up.svg";
-
+import skincare from "./skincare.svg";
+import dentist from "./dentist.svg"
+import exam from "./exam.svg"
 
 export {
   SCLogo,
@@ -37,5 +39,7 @@ export {
   linkedin,
   nomk,
   arrowUp,
-  
+  skincare,
+  dentist,
+  exam
 };
