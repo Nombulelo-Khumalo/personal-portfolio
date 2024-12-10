@@ -6,9 +6,9 @@ const ProjectCard = ({ project }) => {
   return (
     <motion.div
       className="px-12 py-8 transition-colors duration-300 transform border rounded-xl hover:border-transparent group dark:border-gray-700 dark:hover:border-transparent feature-card"
-      initial={{ y: -30, opacity: 0 }}
+      initial={{ y: -20, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.3 }}
       transition={{ duration: 0.75, delay: 0.1 }}
     >
       <div className="mb-12">
@@ -31,7 +31,7 @@ const ProjectCard = ({ project }) => {
         </div>
 
         {project.image && (
-          <div className="max-w-full mx-auto mb-6">
+          <div className="w-3/4 mx-auto mb-6">
             <img
               src={project.image}
               alt={project.title}
