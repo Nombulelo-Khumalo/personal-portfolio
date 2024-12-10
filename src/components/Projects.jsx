@@ -31,7 +31,7 @@ const ProjectCard = ({ project }) => {
         </div>
 
         {project.image && (
-          <div className="max-w-4xl mx-auto mb-6">
+          <div className="max-w-full mx-auto mb-6">
             <img
               src={project.image}
               alt={project.title}

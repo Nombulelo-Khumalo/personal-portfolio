@@ -37,6 +37,7 @@ import {
   SiNetlify,
   SiVite,
   SiOpenai,
+  SiEdx,
 } from "react-icons/si";
 
 import { DiCss3, DiJavascript, DiVisualstudio } from "react-icons/di";
@@ -74,7 +75,7 @@ export const navLinks = [
   },
   {
     id: "extraAchievements",
-    title: "Extra Achievements",
+    title: "Extra Courses",
   },
   {
     id: "contact",
@@ -340,7 +341,7 @@ export const extraAchievements = [
   {
     id: "ec-1",
     icon: SiGreatlearning,
-    title: "",
+    title: "Certificate",
     degree: "Introduction to API and Restful API",
     content:
       "An introductory course focused on APIs and RESTful architecture, teaching the principles behind building and consuming REST APIs. The course covers HTTP methods, status codes, and best practices for designing scalable and efficient APIs",
@@ -348,17 +349,18 @@ export const extraAchievements = [
   {
     id: "ec-2",
     icon: SiGreatlearning,
-    title: "",
+    title: "Certificate",
     degree: "Introdunction to Web API",
     content:
       "A foundational course on Web APIs, covering the basics of building and consuming APIs. It introduces key concepts, tools, and techniques for developing and integrating APIs to enhance web application functionality.",
   },
   {
     id: "ec-3",
-    icon: "",
-    title: "The Hour Of Code",
-    degree: "Basic Concepts of Computer Science",
-    content: "",
+    icon: SiEdx,
+    title: "Certificate",
+    degree: "ML and AI with Python",
+    content:
+      "In this course, I learned the fundamentals of Machine Learning and Artificial Intelligence, focusing on Python to analyze data, build predictive models, and implement AI techniques. I gained hands-on experience in data preprocessing, model training, and evaluation, equipping me to apply AI solutions to real-world problems and improve decision-making processes",
   },
 ];
 
