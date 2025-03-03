@@ -54,9 +54,9 @@ import {
   gray,
 } from "/src/colors.js";
 
-export const resumeLink = "";
+export const resumeLink = "https://app.enhancv.com/share/510eb275/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic";
 export const repoLink =
-  "https://github.com/Nombulelo-Khumalo/personal-portfolio";
+  "https://github.com/Nombulelo-Khumalo/personal-portfolio/";
 export const callToAction = "input linkdin link";
 
 //Navigation Bar Links
